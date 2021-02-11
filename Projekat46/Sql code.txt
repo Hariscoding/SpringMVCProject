@@ -1,0 +1,13 @@
+
+ create database dbproizvodi_46
+ use dbproizvodi_46
+
+CREATE TABLE `proizvodi` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `ime` varchar(45) DEFAULT NULL,
+  `cijena` varchar(45) DEFAULT NULL,
+  `opis` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+select * from proizvodi;
